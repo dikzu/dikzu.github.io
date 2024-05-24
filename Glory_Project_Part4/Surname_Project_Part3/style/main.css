@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: visible;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 0px 50px 0px 50px
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.disney-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.pirates-logo {
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+#head ul {
+    list-style: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: black;
+}
+
+#head ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#head ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.background {
+    background-image: url('../images/home.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+    position: relative;
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+#foot p {
+    font-size: 22px;
+}
+
+#foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+#foot ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-left: -100px;
+}
+
+.footer-logo {
+    width: 30px;
+    height: 30px;
+}
